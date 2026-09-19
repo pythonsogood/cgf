@@ -13,7 +13,7 @@ int main(int argc, char **argv) {
 	};
 
 	gl_utils::initialize(argc, argv, "Blue Square", vertices, sizeof(vertices),
-	                     true);
+	                     false);
 	glutDisplayFunc(display);
 	glutMainLoop();
 }
