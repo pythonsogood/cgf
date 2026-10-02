@@ -51,6 +51,7 @@ std::vector<float> buildVertices() {
 	vertices.insert(vertices.end(), {0, 0.36F, 1, 1, 1});
 	vertices.insert(vertices.end(), {-0.32F, -0.18F, 1, 1, 1});
 	vertices.insert(vertices.end(), {0.32F, -0.18F, 1, 1, 1});
+
 	const float sizes[] = {0.55F, 0.45F, 0.35F, 0.25F, 0.15F, 0.07F};
 	for (int i = 0; i < SQUARE_COUNT; ++i) {
 		float s = sizes[i];
