@@ -1,0 +1,9 @@
+.cache/
+__cmake*/
+
+build/
+build-*/
+dependencies/*/build/
+dependencies/glew-*/lib/
+dependencies/glew-*/bin/
+smoke-output/
